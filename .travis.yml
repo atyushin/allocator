@@ -6,7 +6,7 @@ script:
 - cmake .
 - cmake --build .
 - cmake --build . --target package
-deploy:
+deploy: 
   provider: script
   skip_cleanup: true
   script:
